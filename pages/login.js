@@ -1,18 +1,10 @@
 import Head from "next/head";
-import Script from "next/script";
+
 
 function login() {
   return (
     <div>
-      <Head>
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Login - SB Admin</title>
-        <script
-          src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
-          crossorigin="anonymous"
-        ></script>
-      </Head>
+
 
       <div class="bg-primary">
         <div id="layoutAuthentication">
