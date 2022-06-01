@@ -1,9 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
 import CardComponent from "../components/CardComponent";
 import AreaChart from '../components/ areachart';
 import BarChart from '../components/BarChart';
+import DataTableComponent from "../components/DataTableComponent";
 
 export default function Home() {
     return (
@@ -24,7 +22,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+
+            <DataTableComponent/>
         </div>
-        
+
     )
 }
