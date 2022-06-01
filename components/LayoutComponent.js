@@ -1,11 +1,11 @@
-import Footer from "./footer";
-import Navbar from "./navbar";
-import Sidenav from "./sidebar";
+import FooterComponent from "./FooterComponent";
+import NavbarComponent from "./NavbarComponent";
+import Sidenav from "./SidebarComponent";
 
-const Layout = ({ children }) => {
+const LayoutComponent = ({ children }) => {
     return (
         <>
-            <Navbar />
+            <NavbarComponent />
             <div id="layoutSidenav">
                 <div id="layoutSidenav_nav">
                    <Sidenav/>
@@ -14,11 +14,11 @@ const Layout = ({ children }) => {
                     <main>
                         {children}
                     </main>
-                    <Footer />
+                    <FooterComponent />
                 </div>
             </div>
         </>
     )
 }
 
-export default Layout
+export default LayoutComponent

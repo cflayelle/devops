@@ -1,28 +1,34 @@
 function password() {
-    return <div>
-         <div id="layoutAuthentication" class="bg-primary">
+    return (
+        <div id="layoutAuthentication" className="bg-primary">
             <div id="layoutAuthentication_content">
                 <main>
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-5">
-                                <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Password Recovery</h3></div>
-                                    <div class="card-body">
-                                        <div class="small mb-3 text-muted">Enter your email address and we will send you a link to reset your password.</div>
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <div className="col-lg-5">
+                                <div className="card shadow-lg border-0 rounded-lg mt-5">
+                                    <div className="card-header"><h3
+                                        className="text-center font-weight-light my-4">Password Recovery</h3></div>
+                                    <div className="card-body">
+                                        <div className="small mb-3 text-muted">Enter your email address and we will send
+                                            you a link to reset your password.
+                                        </div>
                                         <form>
-                                            <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputEmail" type="email" placeholder="name@example.com" />
-                                                <label for="inputEmail">Email address</label>
+                                            <div className="form-floating mb-3">
+                                                <input className="form-control" id="inputEmail" type="email"
+                                                       placeholder="name@example.com"/>
+                                                <label htmlFor="inputEmail">Email address</label>
                                             </div>
-                                            <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="login.html">Return to login</a>
-                                                <a class="btn btn-primary" href="login.html">Reset Password</a>
+                                            <div
+                                                className="d-flex align-items-center justify-content-between mt-4 mb-0">
+                                                <a className="small" href="login.html">Return to login</a>
+                                                <a className="btn btn-primary" href="login.html">Reset Password</a>
                                             </div>
                                         </form>
                                     </div>
-                                    <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.html">Need an account? Sign up!</a></div>
+                                    <div className="card-footer text-center py-3">
+                                        <div className="small"><a href="register.html">Need an account? Sign up!</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -31,10 +37,10 @@ function password() {
                 </main>
             </div>
             <div id="layoutAuthentication_footer">
-                <footer class="py-4 bg-light mt-auto">
-                    <div class="container-fluid px-4">
-                        <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2022</div>
+                <footer className="py-4 bg-light mt-auto">
+                    <div className="container-fluid px-4">
+                        <div className="d-flex align-items-center justify-content-between small">
+                            <div className="text-muted">Copyright &copy; Your Website 2022</div>
                             <div>
                                 <a href="#">Privacy Policy</a>
                                 &middot;
@@ -45,8 +51,7 @@ function password() {
                 </footer>
             </div>
         </div>
-    </div>
-  
-  }
-  
-  export default password
+    );
+}
+
+export default password

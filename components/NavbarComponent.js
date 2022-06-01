@@ -1,4 +1,4 @@
-const Navbar = () => {
+const NavbarComponent = () => {
   return (
     <div>
       <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -76,4 +76,4 @@ const Navbar = () => {
     </div>
   );
 };
-export default Navbar;
+export default NavbarComponent;

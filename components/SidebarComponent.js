@@ -1,4 +1,4 @@
-const SideBar = () => {
+const SidebarComponent = () => {
     return (
       
 
@@ -71,4 +71,4 @@ const SideBar = () => {
         
     )
 } 
-export default SideBar;
+export default SidebarComponent;

@@ -2,7 +2,7 @@ import CardComponent from "../components/CardComponent";
 import BarChart from '../components/BarChart';
 import DataTableComponent from "../components/DataTableComponent";
 import Head from "next/head";
-import Navbar from "../components/navbar";
+import NavbarComponent from "../components/NavbarComponent";
 import AreaChart from "../components/AreaChart";
 
 export default function Home() {
