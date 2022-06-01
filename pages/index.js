@@ -19,10 +19,28 @@ export default function Home() {
 
           <div className="row">
             <div className="col-xl-6">
-              <AreaChart />
+                <div className="card mb-4">
+                    <div className="card-header">
+                        <i className="fas fa-chart-bar me-1"></i>
+                        Area Chart Example
+                    </div>
+                    <div className="card-body">
+                        <canvas id="myBarChart" width="100%" height="40"></canvas>
+                        <AreaChart/>
+                    </div>
+                </div>
             </div>
             <div className="col-xl-6">
-              <BarChart />
+                <div className="card mb-4">
+                    <div className="card-header">
+                        <i className="fas fa-chart-bar me-1"></i>
+                        Bar Chart Example
+                    </div>
+                    <div className="card-body">
+                        <canvas id="myBarChart" width="100%" height="40"></canvas>
+                        <BarChart/>
+                    </div>
+                </div>
             </div>
           </div>
         </div>
