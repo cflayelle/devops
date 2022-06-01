@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 
 const CardComponent = (props) => {
     return (
-        <Card className={props.bgColor} sx={{ minWidth: 275 }}>
+        <Card className={props.bgColor} sx={{ minWidth: 305 }}>
             <CardContent>
                 <Typography variant="h5" component="div" className={'text-white'}>
                     {props.text}
