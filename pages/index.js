@@ -1,10 +1,10 @@
 import CardComponent from "../components/CardComponent";
-import AreaChart from '../components/ areachart';
 import BarChart from '../components/BarChart';
 import DataTableComponent from "../components/DataTableComponent";
 import Head from "next/head";
 
 import Navbar from "../components/navbar";
+import AreaChart from "../components/AreaChart";
 
 export default function Home() {
     return (
