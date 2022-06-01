@@ -7,7 +7,7 @@ function error3() {
     <div>
 
         <Head>
-        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+            <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         </Head>
 
         <div id="layoutError">
